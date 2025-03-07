@@ -60,6 +60,73 @@
 </form>
 </body>
 
+
+
+
+
+
+
+
+
+
+<body>
+
+  <form method="post" target="_blank" action="blablabla.php" enctype="multipart/form-data">
+ 
+    <input type="hidden" name="ip" value="63.122.162.90" />
+
+<fieldset>
+  <legend>Dados Pessoais</legend>  
+  <label><br/>
+     Nome: <br/>
+     <input type="text" name="name" required minlength="2" maxlength="16"/>
+    </label>
+
+    <label><br/>
+      Sobrenome: <br/>
+      <input type="text" name=-lastname required minlength="3" maxlength="16" />
+    </label>
+
+    <label><br/>
+      Data de Nascimento: <br/>
+      <input type="date" name=birthdate required min="1920-01-01" max="2025-03-05" />
+    </label>
+
+    <label><br/>
+      E-mail: <br/>
+      <input type="email" name="e-mail" required/>
+  </label>
+
+  <label>
+    Foto:<br/>
+    <input type="file" name="photo" accept="image/*" /> <br/>
+    
+  </fieldset>
+    
+  <fieldset>
+    <legend>Dados Profissionais</legend>
+    <label><br/>
+      Nome da empresa: <br/>
+      <input type="text" name="companyname" required minlength="2" maxlength="16" />
+     </label>
+ 
+     <label><br/>
+       Cargo da Empresa: <br/>
+       <input type="text" name=companyjobtitle required minlength="2" maxlength="16"/> <br/>
+      </label>
+
+      <label> <br/>
+
+        <input type="submit" value="Cadastrar"> <br/>
+
+      </label>
+  </fieldset>
+
+     
+</form>
+
+</body>
+
 </html>
 
 

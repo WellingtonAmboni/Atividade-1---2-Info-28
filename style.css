@@ -1,22 +1,36 @@
-.label {
-    background-color:50px #CCC;
+* {
+    box-sizing:border-box;
+  
+  }
+  body {
     margin:0px;
-    border:2px solid #DDD;
-    border-color:#EEE
+    }
+
+    label {
+    display:block;
+    margin-bottom:20px;
+  }
+
+input [type=text], textarea, select {
+  padding:10px;
+  width:500px;
+  font-size:15px;
+  border:1px solid #CCC;
+  outline:0;
+  margin-top:5px;
+  border-radius:5px;
 }
 
-.labell {
-    margin:0px;
-    border:0px solid;
-}
+fieldset {
+    background-color:#EEE;
+    margin-bottom:20px;
+    border:2px solid #CCC;
+  }
+  
+  legend {
+    background-color:#DDD;
+    color:black;
+    padding:5px;
+    font-size:20px;
+  }
 
-
-.um {
-padding:40px;
-margin:10px;
-}
-
-.dois {
-padding:40px;
-margin:10px;
-}
